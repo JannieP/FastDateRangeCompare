@@ -53,6 +53,7 @@ public class DateRangeCompare {
             } else {
                 if (active.size() > 0) {
                     overlap = true;
+                    break;
                 }
                 active.add(base.dr);
             }
