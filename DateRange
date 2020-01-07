@@ -1,0 +1,8 @@
+package au.edu.qld.qcaa.sate.iamservice.service.util;
+
+import java.util.Date;
+
+public interface DateRange {
+    Date getStartDate();
+    Date getEndDate();
+}
